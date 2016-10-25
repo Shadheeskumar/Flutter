@@ -13,3 +13,58 @@
  */
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+body
+{
+  background-color: rgba(212, 216, 212, 0.2);
+}
+.rounded-img
+{
+  border-radius: 5%;
+}
+.navbar
+{
+  background-color: white;
+}
+.navbar-brand
+{
+  position: absolute;
+  left: 50%;
+}
+.post-panel
+{
+  margin-top: -21px;
+}
+.post-title
+{
+  text-align: left;
+  margin-left: 15px;
+}
+.post-content
+{
+  text-align: left;
+  margin-left: 15px;
+}
+.post-links
+{
+  text-align: left;
+}
+.post-owner
+{
+  color: black;
+  font-weight: bold;
+}
+.post-creation
+{
+  opacity: 0.55;
+}
+.g-links
+{
+  opacity: 0.46;
+  font-size: 120%;
+  margin-right: 73px;
+}
+.post-form-panel
+{
+  margin-bottom: -21px;
+}
