@@ -24,48 +24,42 @@
      font-weight: 300;
      font-size: 150%
    }
-   .footer-links
+   .sign-in
    {
      color: white;
      text-align: center;
      margin-top: 10%;
      font-size: 75%;
    }
-   .sign-in
-   {
-     float: right;
-     width: 300px;
-     height: 150px;
-     margin-top: 7.5%;
-   }
    .sign-up
    {
-     float: right;
-     width: 300px;
-     height: 250px;
+     color: white;
+     text-align: center;
+     margin-top: 10%;
+     font-size: 75%;
    }
+
   </style>
 
   <div class="container-index row">
     <div class="col-sm-6">
-      <h1> Welcome To Flutter. </h1>
+      <h1> Welcome To Orb. </h1>
       <p class="text">
-        Connect With Your Friends and Family no matter where they are.Make new friends. Send fluts directly to your favourite celebrity and many more. Sign Up TODAY.
+        Connect With Your Friends and Family no matter where they are. Make new friends. Send orbs directly to your favourite celebrity and many more. Sign Up TODAY.
       </p>
     </div>
-    <div class="col-sm-6">
-      <div class="sign-in panel">
-        Sign In
-      </div>
-
-      <div class="sign-up panel">
-        Sign Up
-      </div>
+  </div>
+    <div>
+    <div class="col-sm-12">
+      <p class="sign-in"></p>
+        <li type="button" class= "btn btn-primary navbar-btn"><a href="/users/sign_in">Sign In</li>
+        </div>
+    <div class="col-sm-12">
+      <p class="sign-up"></p>
+        <li type="button" class= "btn btn-primary navbar-btn"><a href="/users/sign_up">Sign Up</li>
+        </div>
     </div>
 
-    <div class="col-sm-12">
-      <p class="footer-links">About  Help  Terms  Privacy  Ads  Info  Brand  Advertise  Businesses  Developers &#9400; 2016 Flutter</p>
-      </div>
   </div>
 
 <% else %>
